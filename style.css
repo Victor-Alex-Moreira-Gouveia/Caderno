@@ -1,0 +1,84 @@
+                                            /*Importações de fonts*/
+@font-face {
+    font-family: DOSFont;
+    src: url(./assets/Fonts/DOSFont.ttf);
+}
+
+/*Style global*/
+body{
+    background-color: #142922;
+    color: #08BB49;
+    font-family: DOSFont;
+}
+
+.text{
+    font-size: 15px;
+    font-family: DOSFont;
+}
+
+                                            /*Styles projects*/
+/*Container Pai*/
+#container{
+    /*Config style default for project*/
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*Div filho 1*/
+#cabeca{
+    /*Test for view*/
+    border: 2px solid #08BB49;
+    
+    /*Config style default for project*/
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+
+    /*Style head*/
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+/*Div filho 2*/
+#corpo{
+    /*Test for view*/
+    border: 2px solid #08BB49;
+
+    /*Config style default for project*/
+    padding:5px;
+
+    /*Style for body 'corpo'*/
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+/*Conteudo da div filho 2*/
+#menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+    padding: 5px;
+}
+
+.BTN-Menu{
+    background-color: #142922;
+    border: 2px solid #08BB49;
+    border-radius: 10px;
+    border-style: dashed;
+
+    color: #08BB49;
+    height: 30px;
+
+    /*Config dafault*/
+    flex: 1;
+
+}
+
+.BTN-Menu:hover{
+    background-color: #08BB49;
+    color: #142922;
+    cursor: pointer;
+}
