@@ -16,6 +16,16 @@ body{
     font-family: DOSFont;
 }
 
+p{
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+
+hr{
+    border: 2px solid #08BB49;
+    border-style: dashed;
+}
                                             /*Styles projects*/
 /*Container Pai*/
 #container{
@@ -47,7 +57,7 @@ body{
     border: 2px solid #08BB49;
 
     /*Config style default for project*/
-    padding:5px;
+    padding:10px;
 
     /*Style for body 'corpo'*/
     border-style: dashed;

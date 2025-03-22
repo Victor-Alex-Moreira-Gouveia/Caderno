@@ -7,9 +7,11 @@ btn_menu_home.addEventListener('click', () => {
 });
 
 btn_menu_programacao.addEventListener('click', () => {
-    window.location.href = './Programmition/index.html';
+    // window.location.href = './Programmition/index.html';
+    alert("Site em desenvolvimento")
 });
 
 btn_menu_sobremim.addEventListener('click', () => {
-    window.location.href = './WithMe/index.html';
+    // window.location.href = './WithMe/index.html';
+    alert("Site em desenvolvimento")
 });
